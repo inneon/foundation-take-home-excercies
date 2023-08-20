@@ -10,7 +10,7 @@
     "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "lint": "npx prettier --write .",
     "test": "jest",
-    "test:integration": "jest --config jest.integration.config.js",
+    "test:watch": "jest --watch",
     "prepare": "husky install"
   },
   "husky": {
